@@ -503,7 +503,7 @@ main {
 .video-wrapper__media {
   margin-top: 32px;
   background-color: #453E3E;
-  height: 254px;
+  width: 100%;
 }
 .video-wrapper__media > * {
   width: 100%;
