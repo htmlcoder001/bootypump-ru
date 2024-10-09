@@ -107,7 +107,7 @@ main {
 }
 .intro-wrapper__content {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center right;
   -webkit-background-size: cover;
   background-size: cover;
   background-image: url(../img/intro-bg.jpg);
@@ -326,10 +326,11 @@ main {
   height: 515px;
 }
 .difference-banner__guarantee {
-
-}
-.difference-banner__nosport {
-
+  width: 101px;
+  height: 94px;
+  position: absolute;
+  top: 24px;
+  left: 16px;
 }
 .difference-banner__text {
   font-family: 'Gilroy';
@@ -356,9 +357,13 @@ main {
 }
 .difference-wrapper__table {
   margin-top: 64px;
+  position: relative;
+  padding-bottom: 64px;
+}
+.difference-table__row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  position: relative;
+  align-items: start;
 }
 .difference-wrapper__table:before {
   content: '';
@@ -371,14 +376,11 @@ main {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  height: 100%;
+  height: calc(100% - 64px);
   width: 2px;
   background-color: #D29F76;
 }
-.difference-table__column {
-
-}
-.difference-column__heading {
+.difference-row__heading {
   background-color: #fff;
   text-align: center;
   height: 72px;
@@ -399,7 +401,7 @@ main {
   display: block;
   margin: 0 auto;
 }
-.difference-column__item {
+.difference-row__item {
   text-align: center;
   display: flex;
   flex-direction: column;

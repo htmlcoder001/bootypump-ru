@@ -1,0 +1,98 @@
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 460px) {
+  .difference-item__text {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .difference-heading__text {
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro-content__heading {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 250px;
+  }
+  .difference-banner__text {
+    font-size: 21px;
+    line-height: 26px;
+    bottom: -24px;
+  }
+  .about-wrapper__text {
+    font-size: 16px;
+    line-height: 20px;
+    right: 12px;
+    max-width: 180px;
+  }
+  .theme-headline {
+    font-size: 27px;
+    line-height: 32px;
+  }
+  .reviews-head__avatar {
+    width: 64px;
+    height: 64px;
+    left: -32px;
+  }
+  .reviews-item__content {
+    max-width: calc(100% - 32px);
+    padding-left: 48px;
+    padding-right: 32px;
+  }
+  .reviews-item__text,
+  .reviews-head__name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .reviews-item__content:after {
+    width: 24px;
+    height: 24px;
+    top: 16px;
+  }
+  .steps-item__text {
+    font-size: 21px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro-wrapper__price {
+    gap: 72px;
+  }
+  .intro-price__old .intro-price__title,
+  .intro-price__title {
+    font-size: 16px;
+  }
+  .intro-price__old .intro-price__value {
+    font-size: 42px;
+  }
+  .intro-price__value {
+    font-size: 52px;
+  }
+  .intro-wrapper__price:after {
+    width: 50px;
+    height: 36px;
+  }
+  .theme-headline {
+    font-size: 27px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 340px) {
+  .difference-item__text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .benefits-item__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
